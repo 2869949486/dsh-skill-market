@@ -1,0 +1,6 @@
+# @local/dsh-skill-market — local fork of @montersy123/dsh-skill-market 2.0.7.
+# The only source change is the client mount: the panel registers on `settings.section`
+# (设置 → 技能管理) instead of `sidebar.panellist` + `main`.
+- insert:
+    - id: skill-management
+      name: '@local/dsh-skill-market'
